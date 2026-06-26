@@ -1,0 +1,27 @@
+# Dependências
+/vendor/
+
+# Configurações locais
+.env
+
+# Ficheiros do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Ficheiros temporários
+*.tmp
+
+# Cache
+.cache/
+
+# Configurações pessoais do XAMPP (se existirem)
+xampp/
+
+# Se no futuro guardares passwords reais na BD
+config/config_local.php

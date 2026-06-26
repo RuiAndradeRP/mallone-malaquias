@@ -1,0 +1,305 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#0D0D0D;
+    color:#FFFFFF;
+}
+
+.logo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid #C9A24D;
+    margin-bottom: 20px;
+}
+header{
+    background:#000;
+    padding:60px 20px;
+    text-align:center;
+    border-bottom:3px solid #C9A24D;
+}
+
+header h1{
+    color:#C9A24D;
+    font-size:48px;
+}
+
+header p{
+    margin-top:10px;
+    color:#fff;
+}
+
+nav{
+    background:#1A1A1A;
+    padding:20px;
+    text-align:center;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#C9A24D;
+}
+
+main{
+    max-width:1200px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.hero{
+    background:#1A1A1A;
+    padding:80px 40px;
+    text-align:center;
+    border-radius:15px;
+    border:2px solid #C9A24D;
+}
+
+.hero h2{
+    color:#C9A24D;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.botao{
+    display:inline-block;
+    background:#C9A24D;
+    color:#000;
+    padding:15px 30px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.botao:hover{
+    background:#E2C16D;
+    transform:scale(1.05);
+}
+
+footer{
+    margin-top:50px;
+    background:#000;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+    border-top:3px solid #C9A24D;
+}
+
+.titulo-pagina{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titulo-pagina h2{
+    color: #C9A24D;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.titulo-pagina p{
+    color: white;
+    font-size: 18px;
+}
+
+.servicos-container{
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+    gap: 30px;
+}
+
+.card-servico{
+    background: #1A1A1A;
+
+    border: 2px solid #C9A24D;
+
+    border-radius: 15px;
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.card-servico:hover{
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 0 25px rgba(201,162,77,0.5);
+}
+
+.card-servico h3{
+
+    color: #C9A24D;
+
+    margin-bottom: 20px;
+
+    font-size: 28px;
+}
+
+.card-servico p{
+
+    color: white;
+
+    line-height: 1.7;
+}
+
+.contactos-container{
+
+    width: 90%;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+    gap: 30px;
+}
+
+.contacto-card{
+
+    background: #1A1A1A;
+
+    border: 2px solid #C9A24D;
+
+    border-radius: 15px;
+
+    padding: 40px;
+
+    text-align: center;
+}
+
+.contacto-card h3{
+
+    color: #C9A24D;
+
+    margin-bottom: 20px;
+
+    font-size: 28px;
+}
+
+.contacto-card p{
+
+    color: white;
+
+    margin-bottom: 10px;
+
+    line-height: 1.6;
+}
+
+.preco{
+    margin-top: 20px;
+    color: #C9A24D;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.admin-container{
+    width: 90%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.tabela-admin{
+    width: 100%;
+    border-collapse: collapse;
+    background: #1A1A1A;
+    color: white;
+    border: 2px solid #C9A24D;
+}
+
+.tabela-admin th{
+    background: #C9A24D;
+    color: #000;
+    padding: 15px;
+    text-align: left;
+}
+
+.tabela-admin td{
+    padding: 15px;
+    border-bottom: 1px solid #333;
+}
+
+.tabela-admin tr:hover{
+    background: #222;
+}
+
+.form-admin{
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-admin input,
+.form-admin textarea{
+    padding: 15px;
+    border: 2px solid #C9A24D;
+    border-radius: 10px;
+    background: #1A1A1A;
+    color: white;
+}
+
+.form-admin button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #C9A24D;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-admin button:hover{
+    opacity: 0.9;
+}
+
+.btn-editar,
+.btn-apagar{
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-editar{
+    background: #C9A24D;
+    color: #000;
+}
+
+.btn-apagar{
+    background: #8B0000;
+    color: #fff;
+}
+
+.btn-editar:hover,
+.btn-apagar:hover{
+    opacity: 0.8;
+}
